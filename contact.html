@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Temple Inn & Suites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/contactsmall.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/contactmedium.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/contactlarge.css">
+    <script src="java/toggleMenu.js"></script>
+    <script src="java/currentdate.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="section">
+        <a href="#" id="logo" target="_blank">Temple Inn & Suites</a>
+    </div>    
+</header>
+
+<nav>
+	<ul class="navigation">
+		<li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+		<li><a href="index.html" class="active" title="Home">Home</a></li>
+		<li><a href="temples.html" title="Temples">Temples</a></li>
+		<li><a href="reservations.html" title="Reservations">Reservations</a></li>
+		<li><a href="services.html" title="Services">Services</a></li>
+        <li><a href="contact.html" title="Contact Page">Contact Us</a></li>
+	</ul>
+</nav>
+
+<div class="pagename">
+    <div class="titlepage">
+        Contact Us
+    </div>
+</div>
+
+<div class="contactbody">
+    <div class="contactbox">
+        <div class="contactinfo">
+            <h3>Contact Information</h3>
+            <p>Phone Number: 111-222-3333</p>
+            <p>Email: email@email.com</p>
+            <p>Headquarters: Location</p>
+        </div>
+        <div class="mapofbeth">
+
+        </div>
+    </div>
+</div>
+
+<form>
+    <fieldset>
+        <legend>Enter Your Information</legend>
+        Name: <input type="text" placeholder="Jon Tron"><br>
+        Email (optional): <input type="text"  placeholder="example@hotmail.com"><br>
+        Comments:
+        <textarea name="comments" id="comments" placeholder="Message or Question"></textarea><br>
+        <input class="submitbutton" type="submit" value="Send">
+    </fieldset>
+</form>
+
+<footer>
+    <div>&copy; 2019 Brandon Parham</div> 
+    <div><a href="#">Terms of Use</a></div>
+    <div><span id="currentdate"> </span></div>
+</footer>
+ 
+</body>
+<script>currentDate();</script>   
+</html>

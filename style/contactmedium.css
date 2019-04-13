@@ -1,0 +1,519 @@
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+* {
+  text-decoration:none; 
+  list-style:none; 
+  margin:0px; 
+  padding:0px; 
+  outline:none;
+}
+
+body {
+  margin:0px; 
+  padding:0px; 
+  font-family: 'Open Sans', sans-serif;
+  background-color: #99999B;
+}
+
+.section {
+  width:90%; 
+  margin:0px auto; 
+  text-align: center;
+  height: 30px;
+  padding-top: 5px;
+}
+
+header {
+  width:98%;
+  display:table; 
+  background-color: #000762;
+  border: 3px solid #99999B;
+  margin: 0 auto;
+  height: 30px;
+}
+
+#logo { 
+  font-size:24px; 
+  text-transform:uppercase; 
+  color: white; 
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+}
+
+nav {	
+  margin: 0 auto;	
+  background-color: #000762;	
+  height: 22px;
+  width: 98%;
+  margin-top: -5px;
+  padding-bottom: 2px;
+  border-top: thin solid #fde428;
+}
+
+.navigation { 
+  list-style: none; 
+  text-align: center; 
+  margin: 0;
+  padding: 0;
+  padding-top: 3px;
+}
+
+.navigation li:first-child { 
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  padding-bottom: 2px;
+}
+
+.navigation li { 
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation a {	
+  color: #fff; 
+  padding: 5px;
+  text-align: center;	
+  text-decoration: none;
+  margin: 0;
+  padding: 3px;
+}
+
+.navigation a:hover {	
+  color: #000762; 
+  background-color: #fff; 
+  font-weight: 700;	
+}
+
+.responsive li { 
+  display: grid;
+  margin: 0;
+  padding: 0;
+  background-color: #000762;
+}
+
+.hotelpic {
+  height: 145px;
+  margin-top: 5px;
+}
+
+.hotelpool {
+  background-image: url("../images/hotelpool.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 145px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  border: thin solid #fde428;
+  position: relative;
+  z-index: -1;
+}
+
+.resbody {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+.resbox {
+  margin: o auto;
+  text-align: center;
+}
+
+.resbox h3 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.resbox p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.submithome {
+  background-color: #000762;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 12px;
+  height: 25px;
+  width: 120px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.submithome:hover {
+  background-color: white;
+  color: #000762;
+  border: thin solid #000762;
+}
+
+.hotelinfo {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+.blurbox {
+  width: 155px;
+  background-color: #99999B;
+  height: 145px;
+  margin-left: 10px;
+  margin-top: 10px;
+  opacity: .8;
+}
+
+.hotelamenities {
+  height: 180px;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("../images/breakfast.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: thin solid #fde428;
+  position: relative;
+  z-index: -1;
+}
+
+.hotelamenities h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  padding-bottom: 4px;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+.hotelinfo ul {
+  font-size: 7px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding-left: 12px;
+}
+
+.hotelinfo li {
+  padding-bottom: 4px;
+  font-weight: bold;
+}
+
+.templebody {
+  width: 100%;
+  height: 810px;
+  margin-top: 10px;
+}
+
+.templebox {
+  width: 90%;
+  height: 800px;
+  margin: 0 auto;
+  border: thin solid #fde428;
+}
+
+.templepic {
+  height: 600px;
+  background-color: blue;
+  background-image: url("../images/italy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.templeinfo {
+  height: 198px;
+  background-color: #99999B;
+  border-top: thin solid #fde428; 
+  text-align: left;
+}
+
+.templeinfo h3 {
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+}
+
+.templeinfo p {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+footer {
+  margin: 0;
+  background-color: #000762;
+  color: white;
+  font-size: .7rem;
+  text-align: center;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  position: fixed;
+  bottom: 0;
+}
+
+footer div{
+  padding: .5rem;
+  display: inline-flex;
+}
+footer a {
+  color: #CEE5F2;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #000000;
+}
+footer a:hover{
+  color: #ffffff;
+  text-shadow: 0 0 6px #ffe348;
+}
+footer a:visited{
+  color: #ffffff;
+}
+footer a:focus{
+  color: #cee5f2;
+}
+footer a:active{
+  color: #ffe348;
+}
+
+.pagename {
+    height: 25px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: -1;
+}
+
+.titlepage {
+    height: 25px;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+}
+
+fieldset {
+    border: thin solid #ffe348;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+legend {
+    padding: 0.2em 0.5em;
+    color:black;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date], select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+#comments {
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+
+.hotelservices {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.blurboxy {
+  width: 200px;
+  background-color: #99999B;
+  height: 180px;
+  margin-left: 10px;
+  margin-top: 10px;
+  opacity: .8;
+}
+
+.hotelspecial {
+  height: 200px;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("../images/weddingrec.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: thin solid #fde428;
+}
+
+.hotelspecial h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  padding-bottom: 4px;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+.hotelservices ul {
+  font-size: 7px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding-left: 12px;
+}
+
+.hotelservices li {
+  padding-bottom: 4px;
+  font-weight: bold;
+}
+
+.receptionbody {
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.receptionbox {
+    height: 250px;
+    border: thin solid #fde428;
+    width: 90%; 
+    margin: 0 auto;
+}
+
+.receptioninfo {
+    float: left;
+    width: 100%;
+    height: 125px;
+    padding: 0;
+    margin: 0;
+}
+
+.receptioninfo h3 {
+    font-size: 14px;
+    padding-left: 6px;
+    padding-top: 3px;
+    text-decoration: underline;
+}
+
+.receptioninfo p {
+    font-size: 10px;
+    padding-left: 6px;
+    padding-top: 3px;
+}
+
+.missionaryinfo {
+    float: left;
+    width: 100%;
+    height: 125px;
+    padding: 0;
+    margin: 0;
+    border-top: thin solid #fde428;
+}
+
+.missionaryinfo h3 {
+    font-size: 14px;
+    padding-left: 6px;
+    padding-top: 3px; 
+    text-decoration: underline;  
+}
+
+.missionaryinfo p {
+    font-size: 10px;
+    padding-left: 6px;
+    padding-top: 3px;
+}
+
+.contactbody {
+    height: 425px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: -1;
+}
+
+.contactbox {
+    height: 425px;
+    width: 90%;
+    border: thin solid #fde428;
+    margin: 0 auto;
+}
+
+.contactinfo {
+    height: 125px;
+    width: 100%;
+}
+
+.contactinfo h3 {
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+.contactinfo p {
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    padding-bottom: 3px;
+}
+
+.mapofbeth {
+    height: 300px;
+    width: 100%;
+    background-image: url("../images/mapbeth.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.submitbutton {
+    background-color: #000762;
+}
+
+}
